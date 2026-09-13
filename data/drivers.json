@@ -1,0 +1,34 @@
+[
+  {
+    "id": "V-1",
+    "name": "Ana",
+    "location": [3, 3],
+    "available": true,
+    "reliability": 0.95,
+    "refrigerated_transport": true
+  },
+  {
+    "id": "V-2",
+    "name": "Ben",
+    "location": [6, 3],
+    "available": true,
+    "reliability": 0.35,
+    "refrigerated_transport": true
+  },
+  {
+    "id": "V-3",
+    "name": "Carlos",
+    "location": [4, 6],
+    "available": true,
+    "reliability": 0.85,
+    "refrigerated_transport": false
+  },
+  {
+    "id": "V-4",
+    "name": "Diana",
+    "location": [7, 5],
+    "available": true,
+    "reliability": 0.9,
+    "refrigerated_transport": true
+  }
+]

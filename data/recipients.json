@@ -1,0 +1,58 @@
+[
+  {
+    "id": "R-1",
+    "name": "Hope Family Shelter",
+    "type": "shelter",
+    "location": [2, 3],
+    "needs": ["produce", "protein", "prepared"],
+    "storage_capacity_lbs": 120,
+    "refrigeration": true,
+    "open_from_minute": 0,
+    "open_to_minute": 600,
+    "serves_children": true,
+    "dietary_restrictions": [],
+    "last_served_minute": -600
+  },
+  {
+    "id": "R-2",
+    "name": "Grace Community Kitchen",
+    "type": "community_kitchen",
+    "location": [5, 2],
+    "needs": ["protein", "prepared", "produce"],
+    "storage_capacity_lbs": 300,
+    "refrigeration": true,
+    "open_from_minute": 0,
+    "open_to_minute": 400,
+    "serves_children": false,
+    "dietary_restrictions": [],
+    "last_served_minute": -30
+  },
+  {
+    "id": "R-3",
+    "name": "Riverside Food Bank",
+    "type": "food_bank",
+    "location": [8, 6],
+    "needs": ["produce", "bakery", "prepared"],
+    "storage_capacity_lbs": 500,
+    "refrigeration": true,
+    "open_from_minute": 0,
+    "open_to_minute": 600,
+    "serves_children": true,
+    "dietary_restrictions": [],
+    "last_served_minute": -300
+  },
+  {
+    "id": "R-4",
+    "name": "St. Anne's Senior Meals",
+    "type": "community_kitchen",
+    "location": [3, 7],
+    "needs": ["produce", "prepared"],
+    "storage_capacity_lbs": 80,
+    "refrigeration": false,
+    "open_from_minute": 0,
+    "open_to_minute": 300,
+    "serves_children": false,
+    "dietary_restrictions": ["nuts"],
+    "last_served_minute": -600
+  }
+]

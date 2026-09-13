@@ -1,0 +1,11 @@
+[
+  {"day": 1, "donor_name": "Sunrise Bakery", "category": "bakery", "weight_lbs": 20, "minute": 15},
+  {"day": 2, "donor_name": "Sunrise Bakery", "category": "bakery", "weight_lbs": 24, "minute": 10},
+  {"day": 3, "donor_name": "Sunrise Bakery", "category": "bakery", "weight_lbs": 22, "minute": 12},
+  {"day": 1, "donor_name": "Main St Grocery", "category": "produce", "weight_lbs": 38, "minute": 5},
+  {"day": 2, "donor_name": "Main St Grocery", "category": "produce", "weight_lbs": 44, "minute": 0},
+  {"day": 3, "donor_name": "Main St Grocery", "category": "produce", "weight_lbs": 40, "minute": 8},
+  {"day": 1, "donor_name": "Bella Trattoria", "category": "protein", "weight_lbs": 28, "minute": 25},
+  {"day": 3, "donor_name": "Bella Trattoria", "category": "protein", "weight_lbs": 32, "minute": 22},
+  {"day": 2, "donor_name": "Corner Deli", "category": "dairy", "weight_lbs": 10, "minute": 30}
+]

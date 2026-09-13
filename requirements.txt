@@ -1,0 +1,22 @@
+# FoodBridge runs its offline demo, dashboard, CLI, and tests on the Python standard
+# library alone — no install needed:
+#
+#   python3 run_demo.py
+#
+# To run the *live* LLM-driven agent, install the Strands SDK and pick a model provider:
+#
+#   pip install -r requirements.txt
+#
+# NOTE: the Strands SDK requires Python >= 3.10 (e.g. `brew install python@3.12`).
+strands-agents[ollama]>=1.0.0
+strands-agents-tools>=0.1.0
+
+# --- Model providers (choose one) -------------------------------------------------------
+# Amazon Bedrock is included with strands-agents (production path for AgentCore) — just
+# `aws configure` and run. For a FREE local model instead, install Ollama
+# (https://ollama.com or `brew install ollama`), then:
+#   ollama pull llama3.2
+#   FOODBRIDGE_MODEL_PROVIDER=ollama python3 run_demo.py
+
+# --- Optional: deploy the background runner to Amazon Bedrock AgentCore ------------------
+# bedrock-agentcore
