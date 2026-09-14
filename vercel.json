@@ -1,8 +1,5 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
-  "outputDirectory": "public",
-  "functions": {
-    "api/decide.py": { "runtime": "@vercel/python@4.3.0" }
-  }
+  "outputDirectory": "public"
 }
