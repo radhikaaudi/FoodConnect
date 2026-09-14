@@ -145,10 +145,7 @@ python3 -m foodbridge.cli ask "can we donate food past its best-by date?"
 
 ---
 
-## After recording
-1. Trim to under 5:00. Export 1080p.
-2. Upload to YouTube — set **Public** (required).
-3. Paste the link in the Devpost submission.
+
 
 ## Submission checklist (deadline: Sept 14, 5:00 pm PT)
 - [ ] Video ≤5 min, public on YouTube/Vimeo

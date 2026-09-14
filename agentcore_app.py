@@ -35,7 +35,6 @@ from foodbridge.orchestrator import FoodBridge
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
 MEM_PATH = os.path.join(HERE, "data", "memory.json")
-
 try:  # real AgentCore runtime when deployed
     from bedrock_agentcore.runtime import BedrockAgentCoreApp
 

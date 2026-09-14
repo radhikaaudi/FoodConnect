@@ -1,0 +1,10 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+data/memory.json
+data/trace.jsonl
+tests/
+send_email_demo.sh
+email_preview.html
+ollama.log
